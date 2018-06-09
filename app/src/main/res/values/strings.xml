@@ -1,0 +1,140 @@
+<resources>
+    <!--
+        App Name
+    -->
+    <string name="app_name">Android Micro serviços</string>
+
+    <!--
+        Default Exception
+    -->
+    <string name="exception_service">Erro ao chamar o serviço!</string>
+    <string name="exception_network">Sem acesso a Internet. Por favor, verifique sua conexão!</string>
+    <string name="exception_json">O retorno em Json não possui um formato válido!</string>
+    <string name="exception_empty">Não existem registros a serem exibidos!</string>
+
+    <!--
+        Default Buttons
+    -->
+    <string name="button_new">Novo</string>
+    <string name="button_list">Lista</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_delete">Excluir</string>
+    <string name="button_save">Salvar</string>
+
+    <!--
+        Default Success Message
+    -->
+    <string name="text_success_title">Sucesso</string>
+    <string name="text_save_message">Registro cadastrado com sucesso!</string>
+    <string name="text_edit_message">Registro editado com sucesso!</string>
+    <string name="text_delete_message">Registro excluído com sucesso!</string>
+
+    <!--
+        Default Delete Message
+    -->
+    <string name="text_attention_title">Atenção</string>
+    <string name="text_delete_confirmation">Tem certeza que deseja excluir esse registro?</string>
+
+    <!--
+        Main
+    -->
+    <string name="text_home">Olá!</string>
+    <string name="text_home_user_new">Se você é novo por aqui, crie a sua conta:</string>
+    <string name="button_user_new">Criar Conta</string>
+    <string name="text_home_login">Caso já possua uma conta, acesse então o nosso sistema:</string>
+    <string name="button_login">Entrar</string>
+
+    <!--
+        User New
+    -->
+    <string name="title_activity_user_new">Criar Usuário</string>
+    <string name="text_user_name">Nome</string>
+    <string name="error_invalid_name">O nome é muito curto</string>
+    <string name="text_user_email">E-mail</string>
+    <string name="text_user_password">Senha</string>
+    <string name="text_user_password_repeat">Repita sua senha</string>
+
+    <!--
+        User Login
+    -->
+    <string name="title_activity_user_login">Login</string>
+    <string name="error_invalid_email">O e-mail é inválido</string>
+    <string name="error_invalid_password">A senha é muito curta</string>
+    <string name="error_incorrect_password">A senha é inválida</string>
+    <string name="error_different_password">As senhas são diferentes</string>
+    <string name="error_field_required">O campo é obrigatório</string>
+    <string name="permission_rationale">"Você receberá um e-mail para confirmar seu cadastro."</string>
+
+    <!--
+        User Home
+    -->
+    <string name="title_activity_user_home">Início</string>
+    <string name="text_user_welcome">Bem vindo %s!</string>
+    <string name="button_activity_user">Usuário</string>
+    <string name="button_activity_product">Produto</string>
+    <string name="button_activity_customer">Cliente</string>
+    <string name="button_activity_logoff">Sair</string>
+
+    <!--
+        User Main
+    -->
+    <string name="title_activity_user">Usuário</string>
+
+    <!--
+        User List
+    -->
+    <string name="title_activity_user_list">Listar Usuários</string>
+
+    <!--
+        User Edit
+    -->
+    <string name="title_activity_user_edit">Editar Usuário</string>
+
+
+    <!--
+        Product Main
+    -->
+    <string name="title_activity_product">Produto</string>
+
+    <!--
+        Product New
+    -->
+    <string name="title_activity_product_new">Adicionar Produto</string>
+    <string name="text_product_name">Nome</string>
+    <string name="text_product_description">Descrição</string>
+    <string name="text_product_cost">Custo</string>
+
+    <!--
+        Product List
+    -->
+    <string name="title_activity_product_list">Listar Produtos</string>
+
+    <!--
+        Product Edit
+    -->
+    <string name="title_activity_product_edit">Editar Produto</string>
+
+
+    <!--
+        Customer Main
+    -->
+    <string name="title_activity_customer">Cliente</string>
+
+    <!--
+        Customer New
+    -->
+    <string name="title_activity_customer_new">Adicionar Cliente</string>
+    <string name="text_first_name">Nome</string>
+    <string name="text_last_name">Sobrenome</string>
+
+    <!--
+        Customer List
+    -->
+    <string name="title_activity_customer_list">Listar Clientes</string>
+
+    <!--
+        Customer Edit
+    -->
+    <string name="title_activity_customer_edit">Editar Cliente</string>
+
+</resources>

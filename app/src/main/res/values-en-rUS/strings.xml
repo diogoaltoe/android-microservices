@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        App Name
+    -->
+    <string name="app_name">Android Microservices</string>
+
+    <!--
+        Default Exception
+    -->
+    <string name="exception_service">Error calling service!</string>
+    <string name="exception_network">No internet access. Please check your connection!</string>
+    <string name="exception_json">The return in Json does not have a valid format!</string>
+    <string name="exception_empty">There are no records to display!</string>
+
+    <!--
+        Default Buttons
+    -->
+    <string name="button_new">New</string>
+    <string name="button_list">List</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+
+    <!--
+        Default Success Message
+    -->
+    <string name="text_success_title">Success</string>
+    <string name="text_save_message">Successfully registered!</string>
+    <string name="text_edit_message">Registration edited successfully!</string>
+    <string name="text_delete_message">Registration deleted successfully!</string>
+
+    <!--
+        Default Delete Message
+    -->
+    <string name="text_attention_title">Attention</string>
+    <string name="text_delete_confirmation">Are you sure you want to delete this record?</string>
+
+    <!--
+        Main
+    -->
+    <string name="text_home">Hi!</string>
+    <string name="text_home_user_new">If you are new here, create your account:</string>
+    <string name="button_user_new">Create Account</string>
+    <string name="text_home_login">If you already have an account, then access our system:</string>
+    <string name="button_login">Sign In</string>
+
+    <!--
+        User New
+    -->
+    <string name="title_activity_user_new">Create User</string>
+    <string name="text_user_name">Name</string>
+    <string name="error_invalid_name">The name is too short</string>
+    <string name="text_user_email">Email</string>
+    <string name="text_user_password">Password</string>
+    <string name="text_user_password_repeat">Repeat your password</string>
+
+    <!--
+        User Login
+    -->
+    <string name="title_activity_user_login">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is invalid</string>
+    <string name="error_different_password">The passwords are different</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"You will receive an email to confirm your registration."</string>
+
+    <!--
+        User Home
+    -->
+    <string name="title_activity_user_home">Home</string>
+    <string name="text_user_welcome">Welcome %s!</string>
+    <string name="button_activity_user">User</string>
+    <string name="button_activity_product">Product</string>
+    <string name="button_activity_customer">Customer</string>
+    <string name="button_activity_logoff">Logoff</string>
+
+    <!--
+        User Main
+    -->
+    <string name="title_activity_user">User</string>
+
+    <!--
+        User List
+    -->
+    <string name="title_activity_user_list">List Users</string>
+
+    <!--
+        User Edit
+    -->
+    <string name="title_activity_user_edit">Edit User</string>
+
+
+    <!--
+        Product Main
+    -->
+    <string name="title_activity_product">Product</string>
+
+    <!--
+        Product New
+    -->
+    <string name="title_activity_product_new">Add Product</string>
+    <string name="text_product_name">Name</string>
+    <string name="text_product_description">Description</string>
+    <string name="text_product_cost">Cost</string>
+
+    <!--
+        Product List
+    -->
+    <string name="title_activity_product_list">List Products</string>
+
+    <!--
+        Product Edit
+    -->
+    <string name="title_activity_product_edit">Edit Product</string>
+
+
+    <!--
+        Customer Main
+    -->
+    <string name="title_activity_customer">Customer</string>
+
+    <!--
+        Customer New
+    -->
+    <string name="title_activity_customer_new">Add Customer</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+
+    <!--
+        Customer List
+    -->
+    <string name="title_activity_customer_list">List Customers</string>
+
+    <!--
+        Customer Edit
+    -->
+    <string name="title_activity_customer_edit">Edit Customer</string>
+</resources>

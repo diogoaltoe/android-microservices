@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diogoaltoe">
+
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER" />
+    <!-- Request Internet connection -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Request to check Internet connection state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".controller.Oauth2Controller"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+            Main Activity
+        -->
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--
+            User New Activity
+        -->
+        <activity
+            android:name=".activity.UserNewActivity"
+            android:label="@string/title_activity_user_new"
+            android:parentActivityName=".activity.MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.MainActivity" />
+        </activity>
+
+        <!--
+            User Login Activity
+        -->
+        <activity
+            android:name=".activity.UserLoginActivity"
+            android:label="@string/title_activity_user_login"
+            android:parentActivityName=".activity.MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.MainActivity" />
+        </activity>
+
+        <!--
+            User Home Activity
+        -->
+        <activity
+            android:name=".activity.UserHomeActivity"
+            android:label="@string/title_activity_user_home"></activity>
+
+        <!--
+            User Main Activity
+        -->
+        <activity
+            android:name=".activity.UserMainActivity"
+            android:label="@string/title_activity_user"
+            android:parentActivityName=".activity.UserHomeActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.UserHomeActivity" />
+        </activity>
+
+        <!--
+            User List Activity
+        -->
+        <activity
+            android:name=".activity.UserListActivity"
+            android:label="@string/title_activity_user_list"
+            android:parentActivityName=".activity.UserMainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.UserMainActivity" />
+        </activity>
+
+        <!--
+            User Edit Activity
+        -->
+        <activity
+            android:name=".activity.UserEditActivity"
+            android:label="@string/title_activity_user_edit"
+            android:parentActivityName=".activity.UserListActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.UserListActivity" />
+        </activity>
+
+        <!--
+            Product Main Activity
+        -->
+        <activity
+            android:name=".activity.ProductMainActivity"
+            android:label="@string/title_activity_product"
+            android:parentActivityName=".activity.UserHomeActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.UserHomeActivity" />
+        </activity>
+
+        <!--
+            Product New Activity
+        -->
+        <activity
+            android:name=".activity.ProductNewActivity"
+            android:label="@string/title_activity_product_new"
+            android:parentActivityName=".activity.ProductMainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.ProductMainActivity" />
+        </activity>
+
+        <!--
+            Product List Activity
+        -->
+        <activity
+            android:name=".activity.ProductListActivity"
+            android:label="@string/title_activity_product_list"
+            android:parentActivityName=".activity.ProductMainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.ProductMainActivity" />
+        </activity>
+
+        <!--
+            Product Edit Activity
+        -->
+        <activity
+            android:name=".activity.ProductEditActivity"
+            android:label="@string/title_activity_product_edit"
+            android:parentActivityName=".activity.ProductListActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.ProductListActivity" />
+        </activity>
+
+        <!--
+            Customer Main Activity
+        -->
+        <activity
+            android:name=".activity.CustomerMainActivity"
+            android:label="@string/title_activity_customer"
+            android:parentActivityName=".activity.UserHomeActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.UserHomeActivity" />
+        </activity>
+
+        <!--
+            Customer New Activity
+        -->
+        <activity
+            android:name=".activity.CustomerNewActivity"
+            android:label="@string/title_activity_customer_new"
+            android:parentActivityName=".activity.CustomerMainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.CustomerMainActivity" />
+        </activity>
+
+        <!--
+            Customer List Activity
+        -->
+        <activity
+            android:name=".activity.CustomerListActivity"
+            android:label="@string/title_activity_customer_list"
+            android:parentActivityName=".activity.CustomerMainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.CustomerMainActivity" />
+        </activity>
+
+        <!--
+            Customer Edit Activity
+        -->
+        <activity
+            android:name=".activity.CustomerEditActivity"
+            android:label="@string/title_activity_customer_edit"
+            android:parentActivityName=".activity.CustomerListActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.diogoaltoe.activity.CustomerListActivity" />
+        </activity>
+    </application>
+
+</manifest>
